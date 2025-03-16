@@ -14,8 +14,12 @@ const Navbar = () => {
         <Link to="/" className="text-black hover:text-gray-600 font-medium">
           Hem
         </Link>
-        <Link></Link>
+        <Link to="/tjanster" className="text-black hover:text-gray-600 font-medium">
+          Tjänster
+        </Link>
       </div>
     </nav>
-  )
-}
+  );
+};
+
+export default Navbar;
